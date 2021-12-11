@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    line-height: 5vw;
+}
+.heading{
+    width: auto;
+    height: auto;
+    font-size: 2vw;
+    text-align: center;
+     color: rgb(12, 12, 12);
+    background-color: #fab5b5ee;
+}
+.brief{
+    font-size: 1.2vw;
+}
+.mid{
+    width: 70vw;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;  
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mid button{
+    width: 100%;
+    height: auto;
+    font-size: 1.3vw;
+    text-align: left;
+    /*background-color: rgb(133, 32, 32);*/
+    background-image: linear-gradient(to right , rgb(204, 124, 124) , rgb(240, 240, 245));
+    border: 2px solid rgb(192, 192, 192);
+    position: relative;
+    margin-top: 0.5vw;
+}
+
+.text{
+    
+    /*visibility: hidden;*/
+    display: none;
+    background-color: white !important;
+    padding: 2vw;
+    
+}
+.back{
+width: 100%;
+display: inline-block;
+height: 3vw;
+line-height: 3vw;
+position: relative;
+transition: 0.8s;
+
+}
+.back:hover {
+    letter-spacing: 0.1vw;;
+    transition: 0.6s ease-in;
+}
+
+
+/* footer */
+.aboutfooter{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutfootertext{
+ width: 50%;
+ display: flex;
+ flex-direction: row-reverse;
+ color: white;
+ padding: 1vw;
+ align-items: center;
+ font-size: 1.5vw;
+ margin-right: 2vw;
+ font-family: 'Baloo Bhai 2', cursive;
+ 
+}
+.aboutfooterimg{
+    width: 50%;
+   display: flex;
+   align-items: center;
+   
+   margin-left: 2vw;
+
+}
+.aboutfooterimg img{
+    height: 2vw;
+    width: auto;
+    
+}
+.aboutfootertext div{
+    padding: 0.5vw; 
+    align-items: center;
+    position: relative;
+}
+.aboutline{
+    border-left: 3px solid white;
+    position: absolute;
+    left: 0.5vw;
+}
+.aboutfooterimg div{
+    padding: 0.5vw;
+    position: relative;
+}
